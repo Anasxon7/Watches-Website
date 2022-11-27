@@ -70,7 +70,13 @@ let newSwiper = new Swiper(".new-swiper", {
 const sections = document.querySelectorAll('section[id]')
     
 
-w
+window.addEventListener('scroll', scrollActive)
+
+/*=============== SHOW SCROLL UP ===============*/ 
+const scrollUp = () =>{
+	const scrollUp = document.getElementById('scroll-up')
+
+/*=============== SHOW CART ===============*/
 const cart = document.getElementById('cart'),
       cartShop = document.getElementById('cart-shop'),
       cartClose = document.getElementById('cart-close')
